@@ -1,0 +1,13 @@
+@keyframes scrollRightToLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .an‌​imate-scrolling-text {
+    animation: scrollRightToLeft 25s linear infinite;
+  }
+  
